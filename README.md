@@ -45,7 +45,7 @@
 ## 遇到的困难及解决
 - **问题**：推送时报错 `Permission denied (publickey)`。
   - **解决**：重新生成SSH密钥并添加到GitHub账户。
--**问题** fatal: refusing to merge unrelated histories 问题：
+- **问题**：fatal: refusing to merge unrelated histories ：
 这个错误表明你的本地仓库和远程仓库的历史记录（commit history）是完全独立的，Git 不知道如何将它们合并在一起。
 这通常发生在以下情况：
 1.从一个全新的本地仓库开始，然后尝试将它推送到一个已经存在的远程仓库。
