@@ -5,6 +5,7 @@
 - Git官方文档：[https://git-scm.com/doc](https://git-scm.com/doc)
 - GitHub Guides：[https://guides.github.com/](https://guides.github.com/)
 - CSDN：https://blog.csdn.net/qq_42808052/article/details/137476129?fromshare=blogdetail&sharetype=blogdetail&sharerId=137476129&sharerefer=PC&sharesource=ll0902&sharefrom=from_link
+- CSDN：https://blog.csdn.net/sereasuesue/article/details/117080435?fromshare=blogdetail&sharetype=blogdetail&sharerId=117080435&sharerefer=PC&sharesource=ll0902&sharefrom=from_link
 
 ## 实践流程
 1. 安装Git并配置用户名、邮箱。
