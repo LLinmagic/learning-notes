@@ -12,20 +12,20 @@
 2. 创建本地仓库，提交三次代码以及笔记并推送至GitHub。
 3. 解决SSH密钥认证问题。
 注：在git bash中的主要命令--
-git config --global user.name "你的名字"      #全局配置
-git config --global user.email "你的邮箱"     #全局配置
-cd /d             # 进入项目目录
-mkdir git-project     #新建文件夹
-cd /d/git_project     #已有文件夹，直接转
-git init              # 初始化本地仓库
-echo "# My Git Project" > README.md   # 创建 README 文件
-touch main.py                         # 创建示例代码文件
-git remote add origin https://github.com/LLinmagic/learning-notes.git
-git add .                      # 添加所有文件到暂存区
-git add <filename> ...         # 添加某几个文件到暂存区
-git commit -m "初次提交"        # 提交到本地仓库
-git branch -m master main      # 修复分支名称问题（假设本地分支为 master）
-git push -u learning-nates main        # 推送到远程仓库learning-notes的 main 分支
+-git config --global user.name "你的名字"      #全局配置
+-git config --global user.email "你的邮箱"     #全局配置
+-cd /d             # 进入项目目录
+-mkdir git-project     #新建文件夹
+-cd /d/git_project     #已有文件夹，直接转
+-git init              # 初始化本地仓库
+-echo "# My Git Project" > README.md   # 创建 README 文件
+-touch main.py                         # 创建示例代码文件
+-git remote add origin https://github.com/LLinmagic/learning-notes.git
+-git add .                      # 添加所有文件到暂存区
+-git add <filename> ...         # 添加某几个文件到暂存区
+-git commit -m "初次提交"        # 提交到本地仓库
+-git branch -m master main      # 修复分支名称问题（假设本地分支为 master）
+-git push -u learning-nates main        # 推送到远程仓库learning-notes的 main 分支
 
 ## 遇到的困难及解决
 - **问题**：推送时报错 `Permission denied (publickey)`。
